@@ -1,16 +1,31 @@
-# achievements_app
+# Achievements App (Life Progress Tracker)
 
-A new Flutter project.
+A modern, visually stunning Flutter application designed to track life progress and achievements.
+
+## Overview
+
+The Achievements App goes beyond simple to-do lists, offering a beautiful environment to track ongoing goals and showcase completed milestones. Built with a custom dark glassmorphism UI instead of standard Material components, the app provides a premium, responsive, and engaging user experience.
+
+## Features
+
+* **Two Main Views**:
+  * **Progress Tab**: Manage ongoing goals. Supports simple tasks and segmented goals that require multiple steps to complete. Easily edit or discard goals.
+  * **Showcase Tab**: A beautiful gallery of your completed achievements, with powerful filtering capabilities (by week, month, or year).
+* **Premium Design**: Custom dark glassmorphism styling, modern typography, and smooth micro-animations.
+* **State Management**: Built efficiently using Provider for reactive state management.
+* **Local Persistence**: Achievements and goals are saved locally on the device.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Ensure you have Flutter installed: [Flutter Docs](https://docs.flutter.dev/get-started/install)
+2. Clone this repository and navigate to the project directory.
+3. Fetch dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
